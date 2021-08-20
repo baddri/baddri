@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋, I'm baddri
 
 <!--
 **baddri/baddri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+- 🌱 I’m a student
+- 🔭 Seeking for job/internship opportunity
+- 📫 How to reach me:
+  - email: badri.ula@gmail.com
+
+![Metrics](https://github.com/baddri/baddri/blob/main/github-metrics.svg)
