@@ -17,7 +17,7 @@ jobs:
           # Options
           user: baddri
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: activity, community, repositories, metadata
           config_timezone: Asia/Jakarta
           plugin_reactions: yes
           plugin_reactions_limit: 200                 # Compute reactions over last 200 issue comments
@@ -25,3 +25,15 @@ jobs:
           plugin_reactions_days: 14                   # Compute reactions on issue comments posted less than 14 days ago
           plugin_reactions_details: count, percentage # Display reactions count and percentage
           plugin_reactions_ignored: bot               # Ignore "bot" user
+          plugin_languages: yes
+          plugin_languages_ignored: html, css                           # List of languages to ignore
+          plugin_languages_skipped: my-test-repo                        # List of repositories to skip
+          plugin_languages_colors: "0:orange, javascript:#ff0000, ..."  # Make most used languages orange and JavaScript red
+          plugin_languages_aliases: "JavaScript:JS, TypeScript:TS, ..." # Customize languages names with aliases
+          plugin_languages_details: bytes-size, percentage              # Additionally display total bytes size and percentage
+          plugin_languages_threshold: 2%                                # Hides all languages less than 2%
+          plugin_languages_limit: 8                                     # Display up to 8 languages
+          plugin_languages_sections: most-used          # Display most used and recently used languages stats
+          plugin_languages_indepth: yes                                  # Get indepth stats (see documentation before enabling)
+          plugin_languages_categories: programming                      # Display only languages that match these categories in most-used section
+          commits_authoring: baddri        # Surnames or email addresses used to identify your commits
