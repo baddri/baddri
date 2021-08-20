@@ -17,7 +17,6 @@ jobs:
           # Options
           user: baddri
           template: classic
-          base: activity, community, repositories, metadata
           config_timezone: Asia/Jakarta
           plugin_reactions: yes
           plugin_reactions_limit: 200                 # Compute reactions over last 200 issue comments
