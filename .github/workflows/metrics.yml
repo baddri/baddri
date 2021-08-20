@@ -16,6 +16,7 @@ jobs:
 
           # Options
           user: baddri
+          base: 
           template: classic
           config_timezone: Asia/Jakarta
           plugin_reactions: yes
