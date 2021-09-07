@@ -1300,7 +1300,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -1414,14 +1414,14 @@ no GL no life 🤷‍♂️
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="275.5289142536835" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="275.5289142536835" y="0" width="135.78370642647826" height="8" fill="#2b7489"/>
-                    <rect mask="url(#languages-bar)" x="411.3126206801618" y="0" width="18.059732107092675" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="429.37235278725444" y="0" width="17.722248058266274" height="8" fill="#00B4AB"/>
-                    <rect mask="url(#languages-bar)" x="447.09460084552074" y="0" width="6.096390353275866" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="453.1909911987966" y="0" width="4.034862537777463" height="8" fill="#41b883"/>
-                    <rect mask="url(#languages-bar)" x="457.2258537365741" y="0" width="1.4368742768491272" height="8" fill="#878787"/>
-                    <rect mask="url(#languages-bar)" x="458.6627280134232" y="0" width="1.3372719865768317" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="275.51968888657404" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="275.51968888657404" y="0" width="135.7791600631949" height="8" fill="#2b7489"/>
+                    <rect mask="url(#languages-bar)" x="411.29884894976897" y="0" width="18.059127424063178" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="429.3579763738321" y="0" width="17.72165467500998" height="8" fill="#00B4AB"/>
+                    <rect mask="url(#languages-bar)" x="447.07963104884215" y="0" width="6.096186231544382" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="453.1758172803865" y="0" width="4.034727440928379" height="8" fill="#41b883"/>
+                    <rect mask="url(#languages-bar)" x="457.2105447213149" y="0" width="1.4368261668613604" height="8" fill="#878787"/>
+                    <rect mask="url(#languages-bar)" x="458.6473708881762" y="0" width="1.3526291118237488" height="8" fill="#00ADD8"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -1503,7 +1503,7 @@ no GL no life 🤷‍♂️
                       Go
                     </div>
                             <small>
-                                <div>11.7 kB</div>
+                                <div>11.8 kB</div>
                                 <div>0.29%</div>
                             </small>
                         </div>
