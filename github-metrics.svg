@@ -1296,11 +1296,11 @@
                                     <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -1414,14 +1414,14 @@ no GL no life 🤷‍♂️
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="274.3945404017238" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="274.3945404017238" y="0" width="135.3705653670011" height="8" fill="#2b7489"/>
-                    <rect mask="url(#languages-bar)" x="409.7651057687249" y="0" width="17.98537879309957" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="427.75048456182446" y="0" width="17.649284192206352" height="8" fill="#00B4AB"/>
-                    <rect mask="url(#languages-bar)" x="445.3997687540308" y="0" width="6.071291042639712" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="451.47105979667054" y="0" width="4.018250696615514" height="8" fill="#41b883"/>
-                    <rect mask="url(#languages-bar)" x="455.48931049328604" y="0" width="3.0797309524038883" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="458.56904144568995" y="0" width="1.4309585543100747" height="8" fill="#878787"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="273.8522477394417" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="273.8522477394417" y="0" width="135.10302919744018" height="8" fill="#2b7489"/>
+                    <rect mask="url(#languages-bar)" x="408.95527693688183" y="0" width="17.949833847731554" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="426.9051107846134" y="0" width="17.614403478843936" height="8" fill="#00B4AB"/>
+                    <rect mask="url(#languages-bar)" x="444.5195142634573" y="0" width="6.059292201197085" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="450.57880646465435" y="0" width="4.010309329178705" height="8" fill="#41b883"/>
+                    <rect mask="url(#languages-bar)" x="454.58911579383306" y="0" width="3.9827536903552803" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="458.57186948418837" y="0" width="1.4281305158115825" height="8" fill="#878787"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -1432,7 +1432,7 @@ no GL no life 🤷‍♂️
                     </div>
                             <small>
                                 <div>2.41 MB</div>
-                                <div>59.65%</div>
+                                <div>59.53%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -1442,7 +1442,7 @@ no GL no life 🤷‍♂️
                     </div>
                             <small>
                                 <div>158 kB</div>
-                                <div>3.91%</div>
+                                <div>3.9%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -1461,8 +1461,8 @@ no GL no life 🤷‍♂️
                       Go
                     </div>
                             <small>
-                                <div>27.1 kB</div>
-                                <div>0.67%</div>
+                                <div>35.1 kB</div>
+                                <div>0.87%</div>
                             </small>
                         </div>
                     </section>
@@ -1474,7 +1474,7 @@ no GL no life 🤷‍♂️
                     </div>
                             <small>
                                 <div>1.19 MB</div>
-                                <div>29.43%</div>
+                                <div>29.37%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -1484,7 +1484,7 @@ no GL no life 🤷‍♂️
                     </div>
                             <small>
                                 <div>155 kB</div>
-                                <div>3.84%</div>
+                                <div>3.83%</div>
                             </small>
                         </div>
                         <div class="field language details">
