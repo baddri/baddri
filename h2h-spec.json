@@ -83,62 +83,122 @@
           }
         }
       }
+    },
+    "/get-data-fakultas": {
+      "get": {
+        "summary": "list fakultas dan id",
+        "operationId": "getDataFakultas",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "List data fakultas",
+            "headers": {
+            },
+            "schema": {
+              "$ref": "#/definitions/DataFakultasArray"
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/get-data-prodi": {
+      "get": {
+        "summary": "list prodi dan id",
+        "operationId": "getDataProdi",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "List data prodi",
+            "headers": {
+            },
+            "schema": {
+              "$ref": "#/definitions/DataProdiArray"
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
     }
   },
   "definitions": {
     "DataH2H": {
       "required": [
-        "id",
-        "name"
+        "id"
       ],
       "properties": {
         "id": {
           "type": "integer",
-          "format": "int64"
+          "format": "int64",
+          "description": "id"
         },
         "tahun": {
           "type": "integer",
-          "format": "year"
+          "format": "year",
+          "description": "tahun dibayarkan"
         },
         "semester": {
-          "type": "string"
+          "type": "string",
+          "description": "semester dibayarkan"
         },
         "nim": {
-          "type": "string"
+          "type": "string",
+          "description": "nim mahasiswa"
         },
         "kode_fakultas": {
-          "type": "string"
+          "type": "string",
+          "description": "kode fakultas mahasiswa yang ditempati oleh prodi mahasiswa pada waktu berjalan"
         },
         "kode_prodi": {
-          "type": "string"
+          "type": "string",
+          "description": "kode prodi mahasiswa"
         },
         "jenjang": {
-          "type": "string"
+          "type": "string",
+          "description": "jenjang mahasiswa"
         },
         "nominal_spp_ukt": {
-          "type": "number"
+          "type": "number",
+          "description": "nominal UKT untuk S1/D3 atau SPP untuk jenjang lainnya"
         },
         "nominal_spi_bop": {
-          "type": "number"
+          "type": "number",
+          "description": "nominal SPI untuk S1/D3/D4/Profesi/PPDS atau BOP untuk S2/S3"
         },
         "nominal_denda": {
-          "type": "number"
+          "type": "number",
+          "description": "Nominal denda yang dibayarkan"
         },
         "nominal_matrikulasi": {
-          "type": "number"
+          "type": "number",
+          "description": "nominal matrikulasi yang dibayarkan"
         },
         "nominal_piutang": {
-          "type": "number"
+          "type": "number",
+          "description": "nominal piutang yang dibayarkan"
         },
         "nominal_total": {
-          "type": "number"
+          "type": "number",
+          "description": "total dari pembayaran"
         },
         "tanggal_transaksi": {
           "type": "string",
-          "format": "date"
+          "format": "date",
+          "description": "tanggal bayar dari bank"
         },
         "id_bank_penerima": {
-          "type": "string"
+          "type": "string",
+          "description": "jika ada nomor rekening maka keluarkan nomor rekening"
         }
       }
     },
@@ -146,6 +206,42 @@
       "type": "array",
       "items": {
         "$ref": "#/definitions/DataH2H"
+      }
+    },
+    "DataFakultas": {
+      "properties": {
+        "kode": {
+          "type": "string",
+          "description": "kode fakultas"
+        },
+        "nama": {
+          "type": "string",
+          "description": "nama fakultas"
+        }
+      }
+    },
+    "DataFakultasArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/DataFakultas"
+      }
+    },
+    "DataProdi": {
+      "properties": {
+        "kode": {
+          "type": "string",
+          "description": "kode prodi"
+        },
+        "nama": {
+          "type": "string",
+          "description": "nama prodi"
+        }
+      }
+    },
+    "DataProdiArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/DataProdi"
       }
     },
     "Error": {
