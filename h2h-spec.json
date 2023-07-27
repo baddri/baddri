@@ -238,6 +238,10 @@
           "type": "string",
           "description": "kode prodi"
         },
+        "kode_fakultas": {
+          "type": "string",
+          "description": "kode fakultas"
+        },
         "nama": {
           "type": "string",
           "description": "nama prodi"
