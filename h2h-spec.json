@@ -89,8 +89,9 @@
         "summary": "list fakultas dan id",
         "operationId": "getDataFakultas",
         "tags": [
-          "references"
+          "h2h"
         ],
+        "parameters": [],
         "responses": {
           "200": {
             "description": "List data fakultas",
@@ -114,8 +115,9 @@
         "summary": "list prodi dan id",
         "operationId": "getDataProdi",
         "tags": [
-          "references"
+          "h2h"
         ],
+        "parameters": [],
         "responses": {
           "200": {
             "description": "List data prodi",
