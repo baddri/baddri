@@ -64,6 +64,20 @@
             "description": "Jenjang mahasiswa data h2h",
             "required": false,
             "type": "string"
+          },
+          {
+            "name": "idunit",
+            "in": "query",
+            "description": "Id user",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "key",
+            "in": "query",
+            "description": "User key",
+            "required": true,
+            "type": "string"
           }
         ],
         "responses": {
@@ -73,6 +87,12 @@
             },
             "schema": {
               "$ref": "#/definitions/DataH2HArray"
+            }
+          },
+          "401": {
+            "description": "Key Error",
+            "schema": {
+              "$ref": "#/definitions/KeyError"
             }
           },
           "default": {
@@ -127,7 +147,7 @@
               "$ref": "#/definitions/DataProdiArray"
             }
           },
-          "default": {
+          "401": {
             "description": "unexpected error",
             "schema": {
               "$ref": "#/definitions/Error"
@@ -254,6 +274,22 @@
         "$ref": "#/definitions/DataProdi"
       }
     },
+    "KeyError": {
+      "required": [
+        "code",
+        "message"
+      ],
+      "properties": {
+        "code": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "message": {
+          "type": "string",
+          "example": "Key tidak ditemukan"
+        }
+      }
+    },
     "Error": {
       "required": [
         "code",
@@ -265,7 +301,8 @@
           "format": "int32"
         },
         "message": {
-          "type": "string"
+          "type": "string",
+          "example": "Unexpected error"
         }
       }
     }
