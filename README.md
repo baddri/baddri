@@ -14,6 +14,6 @@ Here are some ideas to get you started:
 -->
 
 <h1 align="center">Hi 👋, I'm baddri</h1>
-<h3 align="center">Student, Indonesia.</h3>
+<h3 align="center">Dev, Indonesia.</h3>
 
 <br>
