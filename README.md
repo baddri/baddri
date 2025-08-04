@@ -1,19 +1,10 @@
-<!--
-**baddri/baddri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 📌 **Q&A**
 
-Here are some ideas to get you started:
+Q: Describe your job? <br>
+_A: "i'd rather not"_
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Q: Do you like this job? <br>
+_A: "meh"_
 
-<h1 align="center">Hi 👋, I'm baddri</h1>
-<h3 align="center">Dev, Indonesia.</h3>
-
-<br>
+Q: Why do you keep this job then? <br>
+_A: "Money, of course"_
