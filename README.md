@@ -45,51 +45,14 @@
 
 # My Accidental IT Journey
 
-It all started in high school.  
-I liked breaking and building things, so I installed Kali Linux, cracked my own Wi-Fi, broke my own laptop, and even tried (and failed) to take down Google. Before graduating, I touched C for the first time, but gave up fast — I had no idea what I was doing.
+It started in high school when I got curious about hacking. I installed Kali Linux, cracked my own Wi‑Fi, broke my own laptop, and even tried to take down Google on my first attempt. I failed, obviously. Before graduation, I learned C, then immediately quit because I had no idea what I was doing.
 
----
+College was supposed to make sense of it all. It didn’t. My first year was nothing but physics, biology, calculus, and statistics — no programming in sight. In the second year, we finally got Java, SQL, C again, Perl, Python, data structures, project management — all taught so shallowly that none of us knew why we were even learning them. So I went rogue. I built my first Django project, and suddenly everything clicked. The internet became my real school, and from there I just kept building, joining online communities, and learning whatever seemed useful.
 
-## 🎓 College — Learning (Mostly Outside Class)
-First year? Physics, biology, calculus… everything but programming.  
-Second year, we finally got coding classes — Java, SQL, C (again), Perl, Python, data structures.  
-It all felt shallow. No one, including me, understood what we were learning.  
+My first job threw me straight into TypeScript, a language I’d never heard of, plus Node.js. Somehow I made it work. Then I moved to a “short-term” contract job that lasted three years. It started with maintaining horrific legacy PHP code — no version control, no structure, just chaos. Eventually, I escaped to Node.js + TypeScript projects and unwillingly learned React and Next.js, which confirmed that frontend is… frontend. Which is another way of saying dogshit.
 
-So I took matters into my own hands:
-- Built my first **Django** project
-- Everything suddenly clicked
-- Learned by building random stuff and lurking in online communities
+I graduated two years late and decided I wanted big‑corporate money. That meant learning the corpo stack: C#, Java, Golang, design patterns, microservices, DevOps, software architecture, scaling strategies, telemetry, containers, cloud patterns — you name it (big words, huh?). Now I can sit in a meeting with high‑level people and actually understand what they’re talking about. One more programming language learned: Corpo.
 
----
+Today I’m an MT IT at the biggest bank in the country, cramming the entire banking business into my brain in three months while training and chasing banking certifications. I’m still not rich, but I’m definitely getting somewhere. Maybe.
 
-## 💼 First Job — Baptism by TypeScript
-Got hired as a developer.  
-First assignment? **TypeScript** — a language I’d never heard of, but somehow made work.  
-Learned **Node.js** on the job. Survived.
-
----
-
-## 💼 Second Job — PHP Purgatory & Frontend Trials
-Took a short-term contract… stayed 3 years.  
-Maintained horrible legacy **PHP** code (no version control, no structure, nothing).  
-Started new projects with **Node.js + TypeScript** and dipped into **React** and **Next.js** — which confirmed I hate frontend.
-
----
-
-## 🎓 Graduation & Corp-Stack Grind
-Graduated (2 years late, thanks jobs).  
-Decided I wanted big-corp money, so I dove into:
-- **C#**, better **Java**
-- **Design patterns**, **microservices**, **message queues**
-- **Golang**, **DevOps**, **container orchestration**
-- **Cloud design patterns**, **scaling**, **telemetry**
-- Even some **data viz** and **predictive models**
-
----
-
-## 🏦 Now — MT IT at the Big Bank
-Management Trainee for IT.  
-Learning the entire banking business in 3 months while training as DevOps and earning certifications.  
-Not rich yet. But at least I can understand when the bigshots talk tech.
-
----
+And now, for some reason, I’m interested in COBOL, wireframe, and IBM Z. I mean — why the fuck are we still using this old‑ass tech to maintain the most critical programs in human history? I don’t know. But I want in. Because I’m where the money’s at.
