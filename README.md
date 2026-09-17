@@ -62,9 +62,5 @@ Still curious, still breaking things in a lab so I don't break them in prod.
 ---
 
 <div align="center">
-  <img src="./github-metrics.svg" alt="GitHub metrics" width="100%"/>
-</div>
-
-<div align="center">
   <sub>clusters up · dashboards green · pager quiet</sub>
 </div>
